@@ -3,47 +3,29 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { HashRouter, Routes, Route, Outlet, useLocation } from "react-router-dom";
-import { useEffect, lazy, Suspense } from "react";
+import { useEffect } from "react";
 import Index from "./pages/Index";
+import About from "./pages/About";
+import Schedule from "./pages/Schedule";
+import Instructors from "./pages/Instructors";
+import Reviews from "./pages/Reviews";
+import Contacts from "./pages/Contacts";
+import NotFound from "./pages/NotFound";
 import Navigation from "@/components/Navigation";
+import VipassanaMountains from "./pages/VipassanaMountains";
+import OneDaySeaRetreat from "./pages/OneDaySeaRetreat";
 import Footer from "@/components/Footer";
 
-// Lazy load non-critical pages
-const About = lazy(() => import("./pages/About"));
-const Instructors = lazy(() => import("./pages/Instructors"));
-const Contacts = lazy(() => import("./pages/Contacts"));
-const NotFound = lazy(() => import("./pages/NotFound"));
-const VipassanaMountains = lazy(() => import("./pages/VipassanaMountains"));
-const OneDaySeaRetreat = lazy(() => import("./pages/OneDaySeaRetreat"));
-
-const queryClient = new QueryClient({
-  defaultOptions: {
-    queries: {
-      staleTime: 5 * 60 * 1000, // 5 minutes
-      gcTime: 10 * 60 * 1000, // 10 minutes
-      retry: 1,
-      refetchOnWindowFocus: false,
-    },
-  },
-});
+const queryClient = new QueryClient();
 
 
-
-// Loading fallback component
-const PageLoader = () => (
-  <div className="min-h-screen flex items-center justify-center">
-    <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-nature-green"></div>
-  </div>
-);
 
 // Layout component to include Navigation on every page
 const Layout = () => (
   <div className="min-h-screen pt-16 flex flex-col">
     <Navigation />
     <div className="flex-1">
-      <Suspense fallback={<PageLoader />}>
-        <Outlet />
-      </Suspense>
+      <Outlet />
     </div>
     <Footer />
   </div>

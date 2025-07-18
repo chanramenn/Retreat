@@ -30,72 +30,14 @@
 
   <link rel="canonical" href="https://retreaty.space/" />
 
-  <!-- DNS prefetch for external resources -->
-  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
-  
-  <!-- Preconnect to critical origins -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  
-  <!-- Optimized font loading -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <!-- Preload critical hero images -->
+  <!-- Preload hero images -->
   <link rel="preload" as="image" href="./images/sea.jpg" fetchpriority="high">
-  <link rel="preload" as="image" href="./images/sun.jpg" fetchpriority="low">
-  <link rel="preload" as="image" href="./images/retreatProgram2.jpg" fetchpriority="low">
-
-  <!-- Critical CSS for above-the-fold content -->
-  <style>
-    /* Critical styles for hero section */
-    .hero-section {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-    }
-    .hero-bg {
-      position: absolute;
-      inset: 0;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-image: url('./images/sea.jpg');
-    }
-    .hero-overlay {
-      position: absolute;
-      inset: 0;
-      background-color: rgba(0, 0, 0, 0.1);
-    }
-    .hero-content {
-      position: relative;
-      z-index: 10;
-      text-align: center;
-      color: white;
-      padding: 1rem;
-    }
-    /* Navigation critical styles */
-    .nav-fixed {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 50;
-      background-color: rgba(255, 255, 255, 0.95);
-      backdrop-filter: blur(10px);
-    }
-    /* Loading spinner */
-    .spinner {
-      animation: spin 1s linear infinite;
-    }
-    @keyframes spin {
-      from { transform: rotate(0deg); }
-      to { transform: rotate(360deg); }
-    }
-  </style>
+  <link rel="preload" as="image" href="./images/sun.jpg">
+  <link rel="preload" as="image" href="./images/retreatProgram2.jpg">
 
 
 </head>

@@ -1,9 +1,8 @@
 
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
-import { memo } from 'react';
 
-const HeroSection = memo(() => {
+const HeroSection = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center">
       <div 
@@ -41,8 +40,6 @@ const HeroSection = memo(() => {
       </div>
     </section>
   );
-});
-
-HeroSection.displayName = 'HeroSection';
+};
 
 export default HeroSection;
