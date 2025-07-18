@@ -41,7 +41,7 @@ const RetreatPrograms = () => {
       dates: "20-24 июня 2025",
       duration: "5 дней",
       description: "Пребывание и практики в Месте Силы, незабываемые горные походы и великолепные морские пляжи.",
-      participants: 12,
+      participants: 11,
       completed: true
     }
   ];
