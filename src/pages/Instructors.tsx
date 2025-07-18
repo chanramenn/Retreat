@@ -6,7 +6,7 @@ import { Mail, Award, BookOpen, Users } from 'lucide-react';
 
 const Instructors = () => {
   const instructors = [
-   {
+    {
       name: "Татьяна Бялая",
       title: "Дипломированный психолог, специалист по причинной психологии, мастер Школы Причинности",
       image: "./images/tanya.jpg",
@@ -19,11 +19,11 @@ const Instructors = () => {
         "Более 20 лет работы в Школе Причинности",
         "Проведение индивидуальных приемов и авторских семинаров",
         "Обучение Методу работы в Причине В.П. Гоча"
-        
+
       ],
       languages: ["Русский"],
       contact: "tatyana@retreat-crimea.ru"
-    }, 
+    },
     {
       name: "Анна Соловьёва",
       title: "Бизнес-тренер, преподаватель йоги, кинезиолог, биодинамист, специалист по ТКМ и эмоциональной коррекции",
@@ -34,7 +34,7 @@ const Instructors = () => {
         "Кинезиолог (Академия медицинской кинезиологии Л.Ф. Васильевой)",
         "Биодинамист (Школа прицельной биодинамики РОВА)",
         "Специалист в области традиционной китайской медицины, преподаватель цигун (Академия 'Познай себя' В.Заворотного)",
-        
+
       ].join(', '),
       specialization: [
         "Йога", "Цигун", "Медитация", "Биодинамика", "Кинезиологический массаж", "Традиционная китайская медицина", "Эмоциональная коррекция"
@@ -51,8 +51,8 @@ const Instructors = () => {
       languages: ["Русский"],
       contact: "anna@retreat-crimea.ru"
     },
-    
-    
+
+
   ];
 
   return (
@@ -61,7 +61,7 @@ const Instructors = () => {
       <div className="relative z-10">
         {/* Hero Section */}
         <section className="relative min-h-screen flex items-center justify-center">
-          <div 
+          <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{
               backgroundImage: "url('./images/sky9.jpg')",
@@ -69,13 +69,13 @@ const Instructors = () => {
           >
             <div className="absolute inset-0 bg-white/20"></div>
           </div>
-          
+
           <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
               Наши ведущие
             </h1>
             <p className="text-xl sm:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
-              Квалифицированные мастера медитативных техник с многолетним опытом 
+              Квалифицированные мастера медитативных техник с многолетним опытом
               и специальной подготовкой для преподавания осознанности
             </p>
           </div>
@@ -87,7 +87,7 @@ const Instructors = () => {
             <div className="flex-1">
               <h2 className="text-3xl font-bold text-nature-green mb-4 text-center md:text-left">Давайте знакомиться :)</h2>
               <p className="text-2xl text-muted-foreground mb-6 text-center md:text-left">
-                Мы, Татьяна Бялая и Анна Соловьева, приглашаем  принять участие в наших совместных практиках. Мы поделимся лучшими трансформационными инструментами, собранными за годы работы. Если вы хотите изменить свою жизнь, улучшить себя, найти новые направления развития - присоединяйтесь!<br/><br/>Ждем вас
+                Мы, Татьяна Бялая и Анна Соловьева, приглашаем  принять участие в наших совместных практиках. Мы поделимся лучшими трансформационными инструментами, собранными за годы работы. Если вы хотите изменить свою жизнь, улучшить себя, найти новые направления развития - присоединяйтесь!<br /><br />Ждем вас
               </p>
             </div>
             <div className="flex-shrink-0 w-160 h-80 lg:w-[535px] lg:h-[630px] rounded-2xl overflow-hidden shadow-md">
