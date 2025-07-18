@@ -69,11 +69,11 @@ const RetreatPrograms = () => {
                 {/* Square photo placeholder at the top */}
                 {retreat.id === 1 ? (
                   <div className="w-full aspect-square bg-gray-100 flex items-center justify-center rounded-t-xl overflow-hidden mb-4">
-                    <img src="./images/sun.jpg" alt={`Ретрит в Крыму - ${retreat.title} - йога и медитация у моря`} className="object-cover w-full h-full" />
+                    <img src="./images/sun.jpg" alt={`Ретрит в Крыму - ${retreat.title} - йога и медитация у моря`} className="object-cover w-full h-full" loading="lazy" />
                   </div>
                 ) : retreat.id === 2 ? (
                   <div className="w-full aspect-square bg-gray-100 flex items-center justify-center rounded-t-xl overflow-hidden mb-4">
-                    <img src="./images/retreatProgram2.jpg" alt={`Однодневный ретрит в Подмосковье - ${retreat.title} - медитация и йога для перезагрузки`} className="object-cover w-full h-full" />
+                    <img src="./images/retreatProgram2.jpg" alt={`Однодневный ретрит в Подмосковье - ${retreat.title} - медитация и йога для перезагрузки`} className="object-cover w-full h-full" loading="lazy" />
                   </div>
                 ) : (
                   <div className="w-full aspect-square bg-gray-100 flex items-center justify-center rounded-t-xl overflow-hidden mb-4">

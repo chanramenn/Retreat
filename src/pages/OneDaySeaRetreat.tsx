@@ -134,16 +134,16 @@ const OneDaySeaRetreat = () => (
         <div className="bg-nature-beige/30 rounded-lg p-6 mb-8">
           <h2 className="text-2xl font-bold text-nature-green mb-4">Локация и фото</h2>
           <div className="flex overflow-x-auto gap-6 mb-4 pb-4 scrollbar-thin scrollbar-thumb-nature-beige/50">
-            <img src="./images/oneday3.jpg" alt="Ретрит фото 1" className="rounded-2xl shadow-lg w-[350px] h-[480px] object-cover flex-shrink-0" />
-            <img src="./images/oneday4.jpg" alt="Ретрит фото 2" className="rounded-2xl shadow-lg w-[350px] h-[480px] object-cover flex-shrink-0" />
-            <img src="./images/oneday5.jpg" alt="Ретрит фото 3" className="rounded-2xl shadow-lg w-[350px] h-[480px] object-cover flex-shrink-0" />
-            <img src="./images/oneday1.jpg" alt="Ретрит фото 4" className="rounded-2xl shadow-lg w-[350px] h-[480px] object-cover flex-shrink-0" />
-            <img src="./images/oneday2.jpg" alt="Ретрит фото 5" className="rounded-2xl shadow-lg w-[350px] h-[480px] object-cover flex-shrink-0" />
-            <img src="./images/oneday.jpg" alt="Ретрит фото 6" className="rounded-2xl shadow-lg w-[350px] h-[480px] object-cover flex-shrink-0" />
-            <img src="./images/oneday7.jpg" alt="Ретрит фото 7" className="rounded-2xl shadow-lg w-[350px] h-[480px] object-cover flex-shrink-0" />
-            <img src="./images/oneday6.jpg" alt="Ретрит фото 8" className="rounded-2xl shadow-lg w-[350px] h-[480px] object-cover flex-shrink-0" />
-            <img src="./images/oneday8.jpg" alt="Ретрит фото 9" className="rounded-2xl shadow-lg w-[350px] h-[480px] object-cover flex-shrink-0" />
-            <img src="./images/oneday9.jpg" alt="Ретрит фото 10" className="rounded-2xl shadow-lg w-[350px] h-[480px] object-cover flex-shrink-0" />
+            <img src="./images/oneday3.jpg" alt="Ретрит фото 1" className="rounded-2xl shadow-lg w-[350px] h-[480px] object-cover flex-shrink-0" loading="lazy" />
+            <img src="./images/oneday4.jpg" alt="Ретрит фото 2" className="rounded-2xl shadow-lg w-[350px] h-[480px] object-cover flex-shrink-0" loading="lazy" />
+            <img src="./images/oneday5.jpg" alt="Ретрит фото 3" className="rounded-2xl shadow-lg w-[350px] h-[480px] object-cover flex-shrink-0" loading="lazy" />
+            <img src="./images/oneday1.jpg" alt="Ретрит фото 4" className="rounded-2xl shadow-lg w-[350px] h-[480px] object-cover flex-shrink-0" loading="lazy" />
+            <img src="./images/oneday2.jpg" alt="Ретрит фото 5" className="rounded-2xl shadow-lg w-[350px] h-[480px] object-cover flex-shrink-0" loading="lazy" />
+            <img src="./images/oneday.jpg" alt="Ретрит фото 6" className="rounded-2xl shadow-lg w-[350px] h-[480px] object-cover flex-shrink-0" loading="lazy" />
+            <img src="./images/oneday7.jpg" alt="Ретрит фото 7" className="rounded-2xl shadow-lg w-[350px] h-[480px] object-cover flex-shrink-0" loading="lazy" />
+            <img src="./images/oneday6.jpg" alt="Ретрит фото 8" className="rounded-2xl shadow-lg w-[350px] h-[480px] object-cover flex-shrink-0" loading="lazy" />
+            <img src="./images/oneday8.jpg" alt="Ретрит фото 9" className="rounded-2xl shadow-lg w-[350px] h-[480px] object-cover flex-shrink-0" loading="lazy" />
+            <img src="./images/oneday9.jpg" alt="Ретрит фото 10" className="rounded-2xl shadow-lg w-[350px] h-[480px] object-cover flex-shrink-0" loading="lazy" />
           </div>
         </div>
       </section>

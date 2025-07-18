@@ -9,7 +9,7 @@ const Instructors = () => {
    {
       name: "Татьяна Бялая",
       title: "Дипломированный психолог, специалист по причинной психологии, мастер Школы Причинности",
-      image: "/images/tanya.jpg",
+      image: "./images/tanya.jpg",
       experience: "20+ лет",
       education: "Дипломированный психолог, специализация: Причинная психология",
       specialization: ["Причинная психология", "Индивидуальные приемы", "Работа с тонкими телами и энерго-информационными структурами", "Методика работы в Причинности В.П. Гоча"],
@@ -27,7 +27,7 @@ const Instructors = () => {
     {
       name: "Анна Соловьёва",
       title: "Бизнес-тренер, преподаватель йоги, кинезиолог, биодинамист, специалист по ТКМ и эмоциональной коррекции",
-      image: "/images/anna1.jpg",
+      image: "./images/anna1.jpg",
       experience: "15 лет",
       education: [
         "Преподаватель йоги (Федерация йоги России, программы Садхгуру)",
@@ -91,7 +91,7 @@ const Instructors = () => {
               </p>
             </div>
             <div className="flex-shrink-0 w-160 h-80 lg:w-[535px] lg:h-[630px] rounded-2xl overflow-hidden shadow-md">
-              <img src="./images/girls.jpg" alt="Татьяна Бялая и Анна Соловьева" className="w-full h-full object-cover" />
+              <img src="./images/girls.jpg" alt="Татьяна Бялая и Анна Соловьева" className="w-full h-full object-cover" loading="lazy" />
             </div>
           </div>
         </section>
@@ -107,6 +107,7 @@ const Instructors = () => {
                       src={instructor.image}
                       alt={instructor.name}
                       className="w-full h-full object-cover"
+                      loading="lazy"
                     />
                   </div>
                   <CardHeader className="pb-4">

@@ -233,18 +233,18 @@ const About = () => {
                 Фотогалерея ретрит-центра
               </h2>
               <div className="grid md:grid-cols-3 gap-6 max-w-7xl mx-auto">
-                <img src="./images/retreat1.jpg" alt="..." />
-                <img src="./images/retreat2.jpg" alt="..." />
-                <img src="./images/retreat3.jpg" alt="..." />
-                <img src="./images/retreat4.jpg" alt="..." />
-                <img src="./images/retreat5.jpg" alt="..." />
-                <img src="./images/retreat6.jpg" alt="..." />
-                <img src="./images/retreat7.jpg" alt="..." />
-                <img src="./images/retreat8.jpg" alt="..." />
-                <img src="./images/retreat9.jpg" alt="..." />  
-                <img src="./images/retreat10.jpg" alt="..." />
-                <img src="./images/retreat11.jpg" alt="..." />
-                <img src="./images/retreat12.jpg" alt="..." />
+                <img src="./images/retreat1.jpg" alt="..." loading="lazy" />
+                <img src="./images/retreat2.jpg" alt="..." loading="lazy" />
+                <img src="./images/retreat3.jpg" alt="..." loading="lazy" />
+                <img src="./images/retreat4.jpg" alt="..." loading="lazy" />
+                <img src="./images/retreat5.jpg" alt="..." loading="lazy" />
+                <img src="./images/retreat6.jpg" alt="..." loading="lazy" />
+                <img src="./images/retreat7.jpg" alt="..." loading="lazy" />
+                <img src="./images/retreat8.jpg" alt="..." loading="lazy" />
+                <img src="./images/retreat9.jpg" alt="..." loading="lazy" />  
+                <img src="./images/retreat10.jpg" alt="..." loading="lazy" />
+                <img src="./images/retreat11.jpg" alt="..." loading="lazy" />
+                <img src="./images/retreat12.jpg" alt="..." loading="lazy" />
 
 
               </div>
