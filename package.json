@@ -5,17 +5,19 @@
   "homepage": "https://retreaty.space",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "vite --host",
+    "build": "npm run type-check && vite build --mode production",
     "build:dev": "vite build --mode development",
-    "build:prod": "vite build --mode production",
-    "predeploy": "npm run build",
+    "build:prod": "npm run type-check && vite build --mode production",
+    "build:analyze": "npm run build && npx vite-bundle-analyzer",
+    "predeploy": "npm run build:prod",
     "deploy": "gh-pages -d dist",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "preview": "vite preview",
-    "type-check": "tsc --noEmit",
-    "analyze": "npx vite-bundle-analyzer"
+    "lint": "eslint . --cache",
+    "lint:fix": "eslint . --fix --cache",
+    "preview": "vite preview --host",
+    "type-check": "tsc --noEmit --incremental",
+    "analyze": "npx vite-bundle-analyzer",
+    "clean": "rm -rf dist node_modules/.vite"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",

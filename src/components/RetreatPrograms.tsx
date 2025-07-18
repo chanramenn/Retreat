@@ -1,8 +1,10 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Link } from 'react-router-dom';
+import { memo } from 'react';
+import OptimizedImage from './OptimizedImage';
 
-const RetreatPrograms = () => {
+const RetreatPrograms = memo(() => {
   const upcomingRetreats = [
     {
       id: 1,
@@ -68,13 +70,21 @@ const RetreatPrograms = () => {
               <Card key={retreat.id} className="shadow-lg hover:shadow-xl transition-shadow">
                 {/* Square photo placeholder at the top */}
                 {retreat.id === 1 ? (
-                  <div className="w-full aspect-square bg-gray-100 flex items-center justify-center rounded-t-xl overflow-hidden mb-4">
-                    <img src="./images/sun.jpg" alt={`Ретрит в Крыму - ${retreat.title} - йога и медитация у моря`} className="object-cover w-full h-full" loading="lazy" />
-                  </div>
+                  <OptimizedImage
+                    src="./images/sun.jpg"
+                    alt={`Ретрит в Крыму - ${retreat.title} - йога и медитация у моря`}
+                    className="w-full aspect-square rounded-t-xl mb-4"
+                    loading="lazy"
+                    fetchPriority="low"
+                  />
                 ) : retreat.id === 2 ? (
-                  <div className="w-full aspect-square bg-gray-100 flex items-center justify-center rounded-t-xl overflow-hidden mb-4">
-                    <img src="./images/retreatProgram2.jpg" alt={`Однодневный ретрит в Подмосковье - ${retreat.title} - медитация и йога для перезагрузки`} className="object-cover w-full h-full" loading="lazy" />
-                  </div>
+                  <OptimizedImage
+                    src="./images/retreatProgram2.jpg"
+                    alt={`Однодневный ретрит в Подмосковье - ${retreat.title} - медитация и йога для перезагрузки`}
+                    className="w-full aspect-square rounded-t-xl mb-4"
+                    loading="lazy"
+                    fetchPriority="low"
+                  />
                 ) : (
                   <div className="w-full aspect-square bg-gray-100 flex items-center justify-center rounded-t-xl overflow-hidden mb-4">
                     <span className="text-gray-400 text-lg">Фото</span>
@@ -152,6 +162,8 @@ const RetreatPrograms = () => {
       </div>
     </section>
   );
-};
+});
+
+RetreatPrograms.displayName = 'RetreatPrograms';
 
 export default RetreatPrograms;

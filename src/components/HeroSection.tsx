@@ -1,8 +1,9 @@
 
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
+import { memo } from 'react';
 
-const HeroSection = () => {
+const HeroSection = memo(() => {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center">
       <div 
@@ -10,7 +11,9 @@ const HeroSection = () => {
         style={{
           backgroundImage: "url('./images/sea.jpg')",
         }}
+        aria-hidden="true"
       >
+        {/* Preloaded in index.html for faster initial load */}
         <div className="absolute inset-0 bg-black/10"></div>
       </div>
       
@@ -38,6 +41,8 @@ const HeroSection = () => {
       </div>
     </section>
   );
-};
+});
+
+HeroSection.displayName = 'HeroSection';
 
 export default HeroSection;
