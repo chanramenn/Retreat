@@ -77,7 +77,7 @@ const BenefitsSection = () => {
               <div className="relative w-full h-[340px] transition-transform duration-1000 transform-style-preserve-3d group-hover:rotate-y-180">
                 {/* Front of card - Title only */}
                 <div className="absolute inset-0 w-full h-full backface-hidden">
-                  <Card className="w-full h-full text-center p-6 rounded-2xl flex flex-col justify-center shadow-md relative overflow-hidden" style={{backgroundImage: "url('/images/background1.jpg')", backgroundSize: 'cover', backgroundPosition: 'center'}}>
+                  <Card className="w-full h-full text-center p-6 rounded-2xl flex flex-col justify-center shadow-md relative overflow-hidden" style={{backgroundImage: "url('./images/background1.jpg')", backgroundSize: 'cover', backgroundPosition: 'center'}}>
                     <div className="absolute inset-0 bg-white/90 z-0 pointer-events-none" />
                     <CardHeader className="p-0 mb-0 border-0 bg-transparent relative z-10">
                       <CardTitle className="text-lavender-dark text-xl font-semibold">
@@ -89,7 +89,7 @@ const BenefitsSection = () => {
                 
                 {/* Back of card - Description only */}
                 <div className="absolute inset-0 w-full h-full backface-hidden rotate-y-180">
-                  <Card className="w-full h-full text-center p-6 rounded-2xl flex flex-col justify-center shadow-md relative overflow-hidden" style={{backgroundImage: "url('/images/background1.jpg')", backgroundSize: 'cover', backgroundPosition: 'center'}}>
+                  <Card className="w-full h-full text-center p-6 rounded-2xl flex flex-col justify-center shadow-md relative overflow-hidden" style={{backgroundImage: "url('./images/background1.jpg')", backgroundSize: 'cover', backgroundPosition: 'center'}}>
                     <div className="absolute inset-0 bg-white/80 z-0 pointer-events-none" />
                     <CardContent className="p-0 text-lg text-lavender-dark flex-1 flex flex-col justify-center relative z-10">
                       <div className="space-y-2 text-left mx-auto max-w-xs">

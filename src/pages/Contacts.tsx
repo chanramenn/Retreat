@@ -87,13 +87,13 @@ export default function Contact() {
   ];
 
   return (
-    <div className="min-h-screen relative" style={{ backgroundImage: "url('/images/contacts1.jpg')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed' }}>
+    <div className="min-h-screen relative" style={{ backgroundImage: "url('./images/contacts1.jpg')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed' }}>
       <SEO 
         title="Контакты | Ретриты Осознанности в Крыму и Подмосковье"
         description="Запишитесь на ретрит осознанности в Крыму или Подмосковье. Медитация, йога, духовные практики для восстановления энергии и борьбы с эмоциональным выгоранием."
         keywords="купить ретрит, центр медитации, ретрит в подмосковье, ретрит московская область, однодневный ретрит в подмосковье, ретрит на выходные москва, йога ретрит подмосковье, ретрит в загорянском, ретрит центр подмосковье, ретрит на один день москва, ретрит в крыму, йога ретрит крым, ретрит у моря, медитация в крыму"
         canonicalUrl="https://chanramenn.github.io/Retreat/contacts"
-        ogImage="https://chanramenn.github.io/Retreat/images/satsang.jpg"
+        ogImage="./images/satsang.jpg"
       />
       <div className="absolute inset-0 bg-white/60 pointer-events-none z-0"></div>
       <div className="relative z-10">

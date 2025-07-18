@@ -45,7 +45,7 @@ const ReviewsSection = () => {
                   className="w-96 h-[36rem] bg-white0 rounded-2xl flex flex-col items-center justify-start text-gray-400 text-2xl flex-shrink-0 scroll-snap-align-start overflow-hidden"
                   style={{ minWidth: '24rem', minHeight: '36rem' }}
                 >
-                  <img src="/images/review1.jpg" alt="Review 1" className="object-contain w-full h-auto mt-2 mb-2" style={{ filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.18))' }} />
+                  <img src="./images/review1.jpg" alt="Review 1" className="object-contain w-full h-auto mt-2 mb-2" style={{ filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.18))' }} />
                 </div>
               ) : index === 1 ? (
                 <div
@@ -53,7 +53,7 @@ const ReviewsSection = () => {
                   className="w-96 h-[36rem] bg-white0 rounded-2xl flex flex-col items-center justify-start text-gray-400 text-2xl flex-shrink-0 scroll-snap-align-start overflow-hidden"
                   style={{ minWidth: '24rem', minHeight: '36rem' }}
                 >
-                  <img src="/images/review18.png" alt="Review 2" className="object-contain w-full h-auto mt-2 mb-2" style={{ filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.18))' }} />
+                  <img src="./images/review18.png" alt="Review 2" className="object-contain w-full h-auto mt-2 mb-2" style={{ filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.18))' }} />
                 </div>
               ) : index === 2 ? (
                 <div
@@ -61,7 +61,7 @@ const ReviewsSection = () => {
                   className="w-96 h-[36rem] bg-white0 rounded-2xl flex flex-col items-center justify-start text-gray-400 text-2xl flex-shrink-0 scroll-snap-align-start overflow-hidden"
                   style={{ minWidth: '24rem', minHeight: '36rem' }}
                 >
-                  <img src="/images/review12.jpg" alt="Review 3" className="object-contain w-full h-auto mt-2 mb-2" style={{ filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.18))' }} />
+                  <img src="./images/review12.jpg" alt="Review 3" className="object-contain w-full h-auto mt-2 mb-2" style={{ filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.18))' }} />
                 </div>
               ) : index === 3 ? (
                 <div
@@ -69,7 +69,7 @@ const ReviewsSection = () => {
                   className="w-96 h-[36rem] bg-white0 rounded-2xl flex flex-col items-center justify-start text-gray-400 text-2xl flex-shrink-0 scroll-snap-align-start overflow-hidden"
                   style={{ minWidth: '24rem', minHeight: '36rem' }}
                 >
-                  <img src="/images/review13.jpg" alt="Review 4" className="object-contain w-full h-auto mt-2 mb-2" style={{ filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.18))' }} />
+                  <img src="./images/review13.jpg" alt="Review 4" className="object-contain w-full h-auto mt-2 mb-2" style={{ filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.18))' }} />
                 </div>
               ) : index === 4 ? (
                 <div
@@ -77,7 +77,7 @@ const ReviewsSection = () => {
                   className="w-96 h-[36rem] bg-white/0 rounded-2xl flex flex-col items-center justify-start text-gray-400 text-2xl flex-shrink-0 scroll-snap-align-start overflow-hidden"
                   style={{ minWidth: '24rem', minHeight: '36rem' }}
                 >
-                  <img src="/images/review17.jpg" alt="Review 5" className="object-contain w-full h-auto mt-2 mb-2" style={{ filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.18))' }} />
+                  <img src="./images/review17.jpg" alt="Review 5" className="object-contain w-full h-auto mt-2 mb-2" style={{ filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.18))' }} />
                 </div>
               ) : index === 5 ? (
                 <div
@@ -85,7 +85,7 @@ const ReviewsSection = () => {
                   className="w-96 h-[36rem] bg-white0 rounded-2xl flex flex-col items-center justify-start text-gray-400 text-2xl flex-shrink-0 scroll-snap-align-start overflow-hidden"
                   style={{ minWidth: '24rem', minHeight: '36rem' }}
                 >
-                  <img src="/images/review16.jpg" alt="Review 6" className="object-contain w-full h-auto mt-2 mb-2" style={{ filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.18))' }} />
+                  <img src="./images/review16.jpg" alt="Review 6" className="object-contain w-full h-auto mt-2 mb-2" style={{ filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.18))' }} />
                 </div>
               ) : index === 6 ? (
                 <div
@@ -93,7 +93,7 @@ const ReviewsSection = () => {
                   className="w-96 h-[36rem] bg-white0 rounded-2xl flex flex-col items-center justify-start text-gray-400 text-2xl flex-shrink-0 scroll-snap-align-start overflow-hidden"
                   style={{ minWidth: '24rem', minHeight: '36rem' }}
                 >
-                  <img src="/images/review14.jpg" alt="Review 7" className="object-contain w-full h-auto mt-2 mb-2" style={{ filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.18))' }} />
+                  <img src="./images/review14.jpg" alt="Review 7" className="object-contain w-full h-auto mt-2 mb-2" style={{ filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.18))' }} />
                 </div>
               ) : index === 7 ? (
                 <div
@@ -101,7 +101,7 @@ const ReviewsSection = () => {
                   className="w-96 h-[36rem] bg-white0 rounded-2xl flex flex-col items-center justify-start text-gray-400 text-2xl flex-shrink-0 scroll-snap-align-start overflow-hidden"
                   style={{ minWidth: '24rem', minHeight: '36rem' }}
                 >
-                  <img src="/images/review15.jpg" alt="Review 8" className="object-contain w-full h-auto mt-2 mb-2" style={{ filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.18))' }} />
+                  <img src="./images/review15.jpg" alt="Review 8" className="object-contain w-full h-auto mt-2 mb-2" style={{ filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.18))' }} />
                 </div>
               ) : null
             ))}

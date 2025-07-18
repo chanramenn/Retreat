@@ -21,7 +21,7 @@ const Index = () => {
     <div
       className="min-h-screen relative"
       style={{
-        backgroundImage: "url('/images/lavender-bg.jpg')",
+        backgroundImage: "url('./images/lavender-bg.jpg')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
@@ -34,12 +34,12 @@ const Index = () => {
         description="Ретриты осознанности в Крыму и Подмосковье. Медитация, йога, духовные практики, восстановление энергии. Однодневные ретриты и выходные для самопознания."
         keywords="ретрит осознанности, медитация ретрит, ретрит тишины, духовные практики, ретрит самопознания, оздоровительный ретрит, ретрит перезагрузка, купить ретрит, центр медитации, ретрит в подмосковье, ретрит московская область, однодневный ретрит в подмосковье, ретрит на выходные москва"
         canonicalUrl="https://chanramenn.github.io/Retreat/"
-        ogImage="https://chanramenn.github.io/Retreat/images/satsang.jpg"
+        ogImage="./images/satsang.jpg"
       />
       <OrganizationStructuredData
         name="Ретриты Осознанности"
         url="https://chanramenn.github.io/Retreat"
-        logo="https://chanramenn.github.io/Retreat/images/satsang.jpg"
+        logo="./images/satsang.jpg"
         description="Центр ретритов осознанности в Крыму и Подмосковье. Медитация, йога, духовные практики, восстановление энергии и борьба с эмоциональным выгоранием."
         telephone="+7 (916) 030-13-00"
         email="a.solovieva.v@gmail.com"

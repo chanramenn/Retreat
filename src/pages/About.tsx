@@ -35,7 +35,7 @@ const About = () => {
     <div
       className="min-h-screen relative"
       style={{
-        backgroundImage: "url('/images/flowers.jpg')",
+        backgroundImage: "url('./images/flowers.jpg')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
@@ -48,7 +48,7 @@ const About = () => {
         description="Светский подход к практикам осознанности, основанный на научных исследованиях и многовековых традициях медитации. Однодневные ретриты в Подмосковье и пятидневные ретриты в Крыму."
         keywords="ретрит самопознания, оздоровительный ретрит, ретрит перезагрузка, купить ретрит, центр медитации, ретрит в подмосковье, ретрит московская область, однодневный ретрит в подмосковье, ретрит на выходные москва, йога ретрит подмосковье, ретрит в загорянском, ретрит центр подмосковье"
         canonicalUrl="https://chanramenn.github.io/Retreat/about"
-        ogImage="https://chanramenn.github.io/Retreat/images/satsang.jpg"
+        ogImage="./images/satsang.jpg"
       />
       <div className="absolute inset-0 bg-white/70 z-0 pointer-events-none" />
       <div className="relative z-10">
@@ -57,7 +57,7 @@ const About = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: "url('/images/sea1.jpg')",
+              backgroundImage: "url('./images/sea1.jpg')",
             }}
           >
             <div className="absolute inset-0 bg-white/0"></div>
@@ -149,7 +149,7 @@ const About = () => {
                   <div className="relative h-96 rounded-2xl overflow-hidden">
                     <div 
                       className="absolute inset-0 bg-cover bg-center"
-                      style={{ backgroundImage: "url('/images/sunrise1.jpg')" }}
+                      style={{ backgroundImage: "url('./images/sunrise1.jpg')" }}
                     >
                       <div className="absolute inset-0 bg-black/30"></div>
                     </div>
@@ -181,7 +181,7 @@ const About = () => {
                   <div className="relative h-96 rounded-2xl overflow-hidden">
                     <div 
                       className="absolute inset-0 bg-cover bg-center"
-                      style={{ backgroundImage: "url('/images/retreatProgram2.jpg')" }}
+                      style={{ backgroundImage: "url('./images/retreatProgram2.jpg')" }}
                     >
                       <div className="absolute inset-0 bg-black/30"></div>
                     </div>
@@ -233,18 +233,18 @@ const About = () => {
                 Фотогалерея ретрит-центра
               </h2>
               <div className="grid md:grid-cols-3 gap-6 max-w-7xl mx-auto">
-                <img src="/images/retreat1.jpg" alt="..." />
-                <img src="/images/retreat2.jpg" alt="..." />
-                <img src="/images/retreat3.jpg" alt="..." />
-                <img src="/images/retreat4.jpg" alt="..." />
-                <img src="/images/retreat5.jpg" alt="..." />
-                <img src="/images/retreat6.jpg" alt="..." />
-                <img src="/images/retreat7.jpg" alt="..." />
-                <img src="/images/retreat8.jpg" alt="..." />
-                <img src="/images/retreat9.jpg" alt="..." />  
-                <img src="/images/retreat10.jpg" alt="..." />
-                <img src="/images/retreat11.jpg" alt="..." />
-                <img src="/images/retreat12.jpg" alt="..." />
+                <img src="./images/retreat1.jpg" alt="..." />
+                <img src="./images/retreat2.jpg" alt="..." />
+                <img src="./images/retreat3.jpg" alt="..." />
+                <img src="./images/retreat4.jpg" alt="..." />
+                <img src="./images/retreat5.jpg" alt="..." />
+                <img src="./images/retreat6.jpg" alt="..." />
+                <img src="./images/retreat7.jpg" alt="..." />
+                <img src="./images/retreat8.jpg" alt="..." />
+                <img src="./images/retreat9.jpg" alt="..." />  
+                <img src="./images/retreat10.jpg" alt="..." />
+                <img src="./images/retreat11.jpg" alt="..." />
+                <img src="./images/retreat12.jpg" alt="..." />
 
 
               </div>

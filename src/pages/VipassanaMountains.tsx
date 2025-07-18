@@ -155,13 +155,13 @@ function VipassanaFAQ() {
 }
 
 const VipassanaMountains = () => (
-  <div className="min-h-screen pt-0 bg-background relative" style={{ backgroundImage: "url('/images/water.jpg')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed' }}>
+  <div className="min-h-screen pt-0 bg-background relative" style={{ backgroundImage: "url('./images/water.jpg')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed' }}>
     <SEO 
       title="Ретрит ДАРЫ АВГУСТА в Крыму | Йога и Медитация у моря"
       description="Пятидневный ретрит в Крыму с практиками йоги, цигун и медитации. Ежедневные походы, экскурсии и купание в бухтах Ласпи, Форос, Фиолент. Восстановление энергии и жизненных сил."
       keywords="ретрит в крыму, йога ретрит крым, ретрит у моря, медитация в крыму, ретрит в горах крыма, место силы крым, ретрит в крыму в августе, ретрит в резервном крым, ретрит ласпи форос, эзотерический тур крым, ретрит с практиками цигун, сатсанг с мастером, школа причинности гоча ретрит"
       canonicalUrl="https://chanramenn.github.io/Retreat/retreats/vipassana-mountains"
-      ogImage="https://chanramenn.github.io/Retreat/images/satsang.jpg"
+      ogImage="./images/satsang.jpg"
     />
     <EventStructuredData
       name="Ретрит ДАРЫ АВГУСТА в Крыму"
@@ -172,7 +172,7 @@ const VipassanaMountains = () => (
         name: "Село Резерное, Крым",
         address: "Республика Крым, село Резерное"
       }}
-      image="https://chanramenn.github.io/Retreat/images/sand4.jpg"
+      image="./images/sand4.jpg"
       price="22000"
       priceCurrency="RUB"
       url="https://chanramenn.github.io/Retreat/retreats/vipassana-mountains"
@@ -208,7 +208,7 @@ const VipassanaMountains = () => (
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('/images/sand4.jpg')",
+          backgroundImage: "url('./images/sand4.jpg')",
         }}
       >
         <div className="absolute inset-0 bg-black/0"></div>
@@ -278,32 +278,32 @@ const VipassanaMountains = () => (
         <h2 className="text-2xl font-bold text-nature-green mb-4">Локация и фото</h2>
         <div className="overflow-x-auto">
           <div className="flex gap-4 min-w-max pb-4">
-            <img src="/images/retreat3.jpg" alt="Ретрит фото 1" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
-            <img src="/images/retreat2.jpg" alt="Ретрит фото 2" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
-            <img src="/images/retreat1.jpg" alt="Ретрит фото 3" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
-            <img src="/images/retreat4.jpg" alt="Ретрит фото 4" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
-            <img src="/images/retreat5.jpg" alt="Ретрит фото 5" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
-            <img src="/images/retreat6.jpg" alt="Ретрит фото 6" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
-            <img src="/images/retreat7.jpg" alt="Ретрит фото 7" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
-            <img src="/images/retreat8.jpg" alt="Ретрит фото 8" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
-            <img src="/images/retreat9.jpg" alt="Ретрит фото 9" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
-            <img src="/images/retreat10.jpg" alt="Ретрит фото 10" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
-            <img src="/images/retreat11.jpg" alt="Ретрит фото 11" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
-            <img src="/images/retreat12.jpg" alt="Ретрит фото 12" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
-            <img src="/images/retreat13.jpg" alt="Ретрит фото 13" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
-            {/* <img src="/images/retreat1.jpg" alt="Ретрит фото 1" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
-            <img src="/images/retreat2.jpg" alt="Ретрит фото 2" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
-            <img src="/images/retreat3.jpg" alt="Ретрит фото 3" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
-            <img src="/images/retreat4.jpg" alt="Ретрит фото 4" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
-            <img src="/images/retreat5.jpg" alt="Ретрит фото 5" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
-            <img src="/images/retreat6.jpg" alt="Ретрит фото 6" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
-            <img src="/images/retreat7.jpg" alt="Ретрит фото 7" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
-            <img src="/images/retreat8.jpg" alt="Ретрит фото 8" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
-            <img src="/images/retreat9.jpg" alt="Ретрит фото 9" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
-            <img src="/images/retreat10.jpg" alt="Ретрит фото 10" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
-            <img src="/images/retreat11.jpg" alt="Ретрит фото 11" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
-            <img src="/images/retreat12.jpg" alt="Ретрит фото 12" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
-            <img src="/images/retreat13.jpg" alt="Ретрит фото 13" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" /> */}
+            <img src="./images/retreat3.jpg" alt="Ретрит фото 1" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
+            <img src="./images/retreat2.jpg" alt="Ретрит фото 2" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
+            <img src="./images/retreat1.jpg" alt="Ретрит фото 3" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
+            <img src="./images/retreat4.jpg" alt="Ретрит фото 4" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
+            <img src="./images/retreat5.jpg" alt="Ретрит фото 5" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
+            <img src="./images/retreat6.jpg" alt="Ретрит фото 6" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
+            <img src="./images/retreat7.jpg" alt="Ретрит фото 7" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
+            <img src="./images/retreat8.jpg" alt="Ретрит фото 8" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
+            <img src="./images/retreat9.jpg" alt="Ретрит фото 9" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
+            <img src="./images/retreat10.jpg" alt="Ретрит фото 10" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
+            <img src="./images/retreat11.jpg" alt="Ретрит фото 11" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
+            <img src="./images/retreat12.jpg" alt="Ретрит фото 12" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
+            <img src="./images/retreat13.jpg" alt="Ретрит фото 13" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
+            {/* <img src="./images/retreat1.jpg" alt="Ретрит фото 1" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
+            <img src="./images/retreat2.jpg" alt="Ретрит фото 2" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
+            <img src="./images/retreat3.jpg" alt="Ретрит фото 3" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
+            <img src="./images/retreat4.jpg" alt="Ретрит фото 4" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
+            <img src="./images/retreat5.jpg" alt="Ретрит фото 5" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
+            <img src="./images/retreat6.jpg" alt="Ретрит фото 6" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
+            <img src="./images/retreat7.jpg" alt="Ретрит фото 7" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
+            <img src="./images/retreat8.jpg" alt="Ретрит фото 8" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
+            <img src="./images/retreat9.jpg" alt="Ретрит фото 9" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
+            <img src="./images/retreat10.jpg" alt="Ретрит фото 10" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
+            <img src="./images/retreat11.jpg" alt="Ретрит фото 11" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
+            <img src="./images/retreat12.jpg" alt="Ретрит фото 12" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" />
+            <img src="./images/retreat13.jpg" alt="Ретрит фото 13" className="w-96 h-120 object-cover rounded-lg shadow-lg flex-shrink-0" /> */}
           </div>
         </div>
         {/* <p className="text-muted-foreground">Наш ретрит проходит в живописных местах Крыма: Ласпи, Форос, Фиолент. Природа, горы, море и уникальная атмосфера для практики и отдыха.</p> */}

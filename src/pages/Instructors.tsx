@@ -56,7 +56,7 @@ const Instructors = () => {
   ];
 
   return (
-    <div className="min-h-screen relative" style={{ backgroundImage: "url('/images/flowers2.jpg')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
+    <div className="min-h-screen relative" style={{ backgroundImage: "url('./images/flowers2.jpg')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
       <div className="absolute inset-0 bg-white/40 pointer-events-none z-0"></div>
       <div className="relative z-10">
         {/* Hero Section */}
@@ -64,7 +64,7 @@ const Instructors = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: "url('/images/sky9.jpg')",
+              backgroundImage: "url('./images/sky9.jpg')",
             }}
           >
             <div className="absolute inset-0 bg-white/20"></div>
@@ -91,7 +91,7 @@ const Instructors = () => {
               </p>
             </div>
             <div className="flex-shrink-0 w-160 h-80 lg:w-[535px] lg:h-[630px] rounded-2xl overflow-hidden shadow-md">
-              <img src="/images/girls.jpg" alt="Татьяна Бялая и Анна Соловьева" className="w-full h-full object-cover" />
+              <img src="./images/girls.jpg" alt="Татьяна Бялая и Анна Соловьева" className="w-full h-full object-cover" />
             </div>
           </div>
         </section>

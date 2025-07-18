@@ -15,7 +15,7 @@ const SEO: React.FC<SEOProps> = ({
   description,
   keywords,
   canonicalUrl = 'https://chanramenn.github.io/Retreat',
-  ogImage = 'https://chanramenn.github.io/Retreat/images/satsang.jpg',
+  ogImage = './images/satsang.jpg',
   ogType = 'website'
 }) => {
   return (
